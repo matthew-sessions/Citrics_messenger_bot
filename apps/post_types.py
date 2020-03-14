@@ -166,7 +166,7 @@ def EducationData(citydata):
                 },       
                 {
                     "type":"postback",
-                    "payload":"HomeData_"+cities,
+                    "payload":"RealEstate_"+cities,
                     "title":"Home Data"
                 },     
                 {
@@ -584,7 +584,7 @@ def logicmapper(baseword, citydata):
 
 
 def NewSelection(citydata):
-    if len(citydata) == 2:
+    if len(citydata) > 1:
         cities = f"{citydata[0]['_id']}+{citydata[1]['_id']}"
         name = f"{citydata[0]['name_with_com']} and {citydata[1]['name_with_com']} "
     else:

@@ -119,7 +119,7 @@ def plot_popbreakdown(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -180,7 +180,7 @@ def educationplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -240,7 +240,7 @@ def schoolenrollplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -301,7 +301,7 @@ def householdincomeplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -414,7 +414,7 @@ def occupationplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -474,7 +474,7 @@ def workerplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -534,7 +534,7 @@ def commuteplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -594,7 +594,7 @@ def vehiclesplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -678,7 +678,7 @@ def unitsinstructureplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -738,7 +738,7 @@ def yearbuiltplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
@@ -798,7 +798,7 @@ def rentplot(data):
         ax.legend(fontsize=20)
 
         plt.tight_layout()
-        plt.show()
+        
     else:
         name1 = data[0]['name_with_com']
         bar_width = 0.7
