@@ -66,3 +66,8 @@ This second is building all the info cards and connecting them. Building a singl
 
 
 ## What's next for CitricsBot
+
+I am going to make this bot available to the public. Once I have enough users I am going to analyze the chat logs to find where the user experience can be improved. I’ll start using the chat logs to make my predictive model better, and I want to add an engine that retrains itself as more users interact with it.
+
+I also have about 60 more metrics that I can add to the bot. I will probably do that soon!
+
