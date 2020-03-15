@@ -36,12 +36,33 @@ User Messages are stored in a PostgreSQL Database. There are two tables. One tab
 * MongoDB
 * PostgreSQL
 
+#### Flow Chart
+This is flow I followed while building each card.
 ![alt text](https://github.com/matthew-sessions/Citrics_messenger_bot/blob/master/pics/flowchart.png "flow")
 
 ## Challenges I ran into
 
+This is the first bot I have created without using the help of a third-party software. It was more challenging than I expected. It took me 15 days to build this bot and 10 of those days were spent just learning the Messenger API. 
+
+Generating Dynamic images was a challenge. Getting the pictures to auto generate on the fly was hard just in my testing environment. Deploying this functionality was a nightmare. Docker helped a lot with this so I just developed and tested with Docker. If it worked as a Docker image that means it will work on AWS.
+
+Debugging was another difficult challenge. There are so many facets to the flow that finding bugs takes time. Once bugs are found trying to fix them takes even longer. 
+
 ## Accomplishments that I'm proud of
 
+There are two things that I am most proud of with this project:
+The first thing is the Dynamically Generated images. This is a concept I have been thinking about for a while and it feels great to finally validate this idea.
+
+This second is building all the info cards and connecting them. Building a single card is not that difficult, but building 20+ of them and then connecting and testing them is very tedious. I am proud that I had the patience to pull that off. 
+
+
 ## What I learned
+
+1. It takes days to thoroughly understand the messaging API.
+2. It is nearly impossible to build a project like this without a well thought out and designed plan beforehand.
+3. Testing a bot can be exhausting.
+4. It takes a lot of data to train a “good” NLP model. (My model does not have enough data to be “good” yet).
+5. The business opportunities the Messenger ecosystem provides are endless.
+
 
 ## What's next for CitricsBot
