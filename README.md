@@ -36,6 +36,8 @@ User Messages are stored in a PostgreSQL Database. There are two tables. One tab
 * MongoDB
 * PostgreSQL
 
+![alt text](https://github.com/matthew-sessions/Citrics_messenger_bot/blob/master/pics/flowchart.png "flow")
+
 ## Challenges I ran into
 
 ## Accomplishments that I'm proud of
