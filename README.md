@@ -11,6 +11,12 @@ CitricsBot is a proof of concept for Dynamic Content. All of the charts that are
 
 ## What it does
 
+Citris Bot takes user input about Cities and Town in the US and renders stats and metrics relevant to the user request.
+
+A user can view over 50 different metrics by clicking through the flow or by directly typing a specific metric they are looking for. Users can also compare two Cities/Towns side-by-side.
+
+![alt text](https://github.com/matthew-sessions/Citrics_messenger_bot/blob/master/pics/flow.png "flow")
+
 ## How I built it
 
 ## Challenges I ran into
