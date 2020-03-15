@@ -19,6 +19,23 @@ A user can view over 50 different metrics by clicking through the flow or by dir
 
 ## How I built it
 
+The City/Town data is stored in a NoSQL database. The bot is powered by two separate Flask apps. The first flask app generates the charts/pictures. Each type of chart has a different endpoint. The endpoint requires one or two city ids (ids found in the NoSQL DB). The Flask app pulls the city data from the DB and then renders a chart. The chart is converted to a png and then sent to the endpoint using Flask’s “send_file” function. 
+
+The second app takes the user response from the Facebook Message API. There are two types of responses it looks for - ‘text’ or ‘post_back’. If the response from the user is text that means the user typed something. The text is placed into a predictive model built using the Sklearn TFIDF vectorizer and the Cosine Similarities model. This NLP model maps the result to a function that corresponds with the response. When the corresponding function is called it fires a response to the user. 
+If the response is a post_back the app knows the user clicked a button. Each payload for every button is mapped to a response function. So when a payload is returned the app fires a response from the corresponding function. 
+
+User Messages are stored in a PostgreSQL Database. There are two tables. One table that stores all the messages. The other table stores the City or Cities the user is currently looking at. If a user types in a new City this row is updated. 
+
+#### Tech Stack
+* Python
+* Flask
+* Sklearn
+* Jupyter Notebooks
+* Docker
+* AWS
+* MongoDB
+* PostgreSQL
+
 ## Challenges I ran into
 
 ## Accomplishments that I'm proud of
