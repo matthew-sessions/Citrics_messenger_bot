@@ -1,5 +1,10 @@
 # Citrics Bot
 
+#### [Direct Link to Messenger](https://m.me/101328654803716)
+#### [Facebook Page](https://www.facebook.com/Citrics-101328654803716)
+#### [Video Demo of Bot](https://youtu.be/NimScs5lA90)
+#### [Citris Website](https://citrics.io/)
+
 ## Inspiration
 
 I spent the last two years working abroad in Shenzhen, China. I worked for a company that owned a couple dozen e-commerce platforms and a few OEM Brands. Being one of two foreigners working in a mid-size Chinese company, my role was “to make things better across all platforms, products, and brands”. Needless to say I had a lot of responsibilities. The 996 work culture in China can be tiring; and 12 hour days can take a toll on your mental health, but this lifestyle gave me the opportunity to independently make high impact business decisions on a weekly basis.
