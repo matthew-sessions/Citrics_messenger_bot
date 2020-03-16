@@ -257,7 +257,7 @@ def create_app():
                                     r = requests.post('https://graph.facebook.com/v6.0/me/messages/?access_token=' + token, json=payload)
                             else:
                                 generic_no_understand(sender, token)
-
+e
 
                 else:
                     pass
