@@ -1,5 +1,7 @@
 # Citrics Bot
 
+[![](http://img.youtube.com/vi/NimScs5lA90/0.jpg)](http://www.youtube.com/watch?v=NimScs5lA90 "Messaging Bot")
+
 #### [Direct Link to Messenger](https://m.me/101328654803716)
 #### [Facebook Page](https://www.facebook.com/Citrics-101328654803716)
 #### [Video Demo of Bot](https://youtu.be/NimScs5lA90)
