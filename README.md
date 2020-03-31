@@ -1,6 +1,6 @@
 # Citrics Bot
 
-[!embed](http://www.youtube.com/watch?v=NimScs5lA90)
+[!embed?max_width=300&max_height=200](https://www.youtube.com/watch?v=vq2jYFZVMDA)
 
 
 #### [Direct Link to Messenger](https://m.me/101328654803716)
