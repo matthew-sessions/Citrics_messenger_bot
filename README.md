@@ -1,8 +1,5 @@
 # Citrics Bot
 
-[!embed?max_width=300&max_height=200](https://www.youtube.com/watch?v=vq2jYFZVMDA)
-
-
 #### [Direct Link to Messenger](https://m.me/101328654803716)
 #### [Facebook Page](https://www.facebook.com/Citrics-101328654803716)
 #### [Video Demo of Bot](https://youtu.be/NimScs5lA90)
